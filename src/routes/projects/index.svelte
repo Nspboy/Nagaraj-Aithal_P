@@ -6,6 +6,7 @@
 	import projects from '$lib/assets/data/Projects.json';
 	import { blur } from 'svelte/transition';
 	import { t } from '$lib/locales/i18n';
+	import { base } from '$app/paths';
 	let animate = false;
 
 	onMount(() => {
@@ -36,10 +37,10 @@
 					<div class="bg-secondary p-3 card_data flex flex-1">
 						<div class="flex gap-4 mb-2 w-full" />
 						<div class="flex gap-2">
-							<a class="text-primary hover:scale-110" href="/"
+							<a class="text-primary hover:scale-110" href="{base}/"
 								><Icon height="20" width="20" icon="charm:github" /></a
 							>
-							<a class="text-primary hover:scale-110" href="/"
+							<a class="text-primary hover:scale-110" href="{base}/"
 								><Icon height="20" width="20" icon="line-md:external-link" /></a
 							>
 						</div>

@@ -3,6 +3,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 
   import { t } from "$lib/locales/i18n";
   import avatar from '../../../routes/about/Nagaraj_aithal.jpeg';
@@ -26,7 +27,7 @@
 		<h2 class="lg:text-7xl text-3xl text-base-100 line-1">And I am a {$t('banner.proffession')}</h2>
 
 		<div class="my-12" in:fly|local={{ x: 1000, duration: 1500 }}>
-			<Button href='/projects'>Check out my projects</Button>
+			<Button href='{base}/projects'>Check out my projects</Button>
 		</div>
 	</div>
 {/if}

@@ -5,6 +5,7 @@
 	import { app } from '../../firebase';
 	import { t } from '$lib/locales/i18n';	
 	import Modal from '$lib/components/organisms/Modal.svelte';
+	import { base } from '$app/paths';
 	onMount(() => {
 		const analytics = getAnalytics(app);
 		logEvent(analytics, 'page_title');
@@ -37,7 +38,7 @@
 			if you want to say Hello or If you have any questions, My inbox is always open for queries
 		</p>
 		{#if localStorage.getItem('form_submitted') !== 'true'}
-			<Button href="/contact/form">Say Hi 👋🏼</Button>
+			<Button href="{base}/contact/form">Say Hi 👋🏼</Button>
 			{:else}
 			<Button onClickEvent={toggleModal} >Say Hi 👋🏼</Button>
 		{/if}

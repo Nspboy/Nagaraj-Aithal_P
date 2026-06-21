@@ -5,6 +5,7 @@
 	import emailjs from '@emailjs/browser';
 	import { goto } from '$app/navigation';
 	import Modal from './Modal.svelte';
+	import { base } from '$app/paths';
 	let errorMessage: boolean = false;
 
 	let name: String;
