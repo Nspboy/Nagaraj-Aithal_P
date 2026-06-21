@@ -20,7 +20,7 @@
 
 <div class="lg:navbar bg-primary-100 py-4 justify-between items-center hidden ">
 	<div class="">
-		<a href="/" class="btn btn-ghost normal-case text-xl">daisyUI</a>
+		<a href="/" class="btn btn-ghost normal-case text-3xl font-serif italic tracking-widest text-accent">NA </a>
 	</div>
 	<div class="flex-1 text-sm justify-center">
 		<ul class="menu menu-horizontal p-0 mx-5">
@@ -39,7 +39,7 @@
 			{/each}
 		</ul>
 	</div>
-	<a target="_blank" class="btn bg-transparent border border-accent text-accent border-2 hover:text-primary hover:bg-accent hover:border-neutral" href="/static/data/resume.pdf" download>Resume</a>
+	<a target="_blank" class="btn bg-transparent border border-accent text-accent border-2 hover:text-primary hover:bg-accent hover:border-neutral" href="/Nagaraj_Aithal_cv.pdf" download>Resume</a>
 	{#if screen >= 1024}
 		<div class="ml-6">
 			<ThemeToggle />
@@ -49,7 +49,7 @@
 
 <div class="navbar relative lg:hidden">
 	<div class="flex-1 text-center">
-		<a href="/" class="btn btn-ghost normal-case text-xl">daisyUI</a>
+		<a href="/" class="btn btn-ghost normal-case text-3xl font-serif italic tracking-widest text-accent">NA </a>
 	</div>
 
 	<span class="btn btn-ghost btn-circle" on:click={toggleNavbar}>
@@ -90,7 +90,7 @@
 				<ThemeToggle />
 			</div>
 		{/if}
-		<a href="/static/data/resume.pdf" class="btn bg-secondary text-primary w-full mt-10" download>Resume</a>
+		<a href="/Nagaraj_Aithal_cv.pdf" class="btn bg-secondary text-primary w-full mt-10" download>Resume</a>
 		
 	</ul>
 </div>

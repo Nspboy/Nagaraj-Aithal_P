@@ -4,7 +4,7 @@
 	import { app } from '../../firebase';
 	import { onMount } from 'svelte';
 	import { t } from '$lib/locales/i18n';
-	import avatar from '$lib/assets/Images/avatar.png'
+	import avatar from './Nagaraj_aithal.jpeg'
 	const analytics = getAnalytics(app);
 	let animate = false;
 	

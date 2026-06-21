@@ -1,26 +1,20 @@
 [
   {
-    "company": "Bachelors",
-    "job_title": "",
-    "year_start": "2011",
-    "year_end": "2015"
+    "company": "Invays Technologies",
+    "job_title": "Full Stack Developer Intern",
+    "year_start": "2024",
+    "year_end": "2024"
   },
   {
-    "company": "DEF",
-    "job_title": "Front End Engineer",
-    "year_start": "2017",
-    "year_end": "2018"
+    "company": "Mangalore Institute of Technology and Engineering",
+    "job_title": "Master of Computer Applications (MCA)",
+    "year_start": "2024",
+    "year_end": "2026"
   },
   {
-    "company": "Masters",
-    "job_title": "",
-    "year_start": "2018",
-    "year_end": "2020"
-  },
-  {
-    "company": "DEF",
-    "job_title": "Web Developer",
+    "company": "St. Mary's Syrian College",
+    "job_title": "Bachelor of Computer Applications (BCA)",
     "year_start": "2021",
-    "year_end": "2022"
+    "year_end": "2024"
   }
 ]

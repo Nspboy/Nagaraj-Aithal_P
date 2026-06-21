@@ -1,23 +1,28 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed molestias magni ipsam doloribus quidem! Dolorem, dolor eligendi nesciunt explicabo, quam repellendus distinctio voluptatum quo deleniti quas porro corrupti perspiciatis obcaecati!",
+    "title": "Expense Tracker",
+    "description": "Built a full-stack personal finance web application enabling users to record, manage, and categorize expenses in real-time with comprehensive data visualization (monthly spending charts).",
     "stack": [
       {
-        "logo": "logos:tailwindcss-icon"
+        "logo": "logos:python",
+        "name": "Python"
       },
       {
-        "logo": "logos:react"
+        "logo": "vscode-icons:file-type-django",
+        "name": "Django"
       },
       {
-        "logo": "vscode-icons:file-type-next"
+        "logo": "logos:javascript",
+        "name": "JavaScript"
       },
       {
-        "logo": "logos:svelte-icon"
+        "logo": "vscode-icons:file-type-sqlite",
+        "name": "SQLite"
       },
       {
-        "logo": "logos:nodejs-icon"
+        "logo": "logos:bootstrap",
+        "name": "Bootstrap"
       }
     ],
     "projectLink": "",
@@ -25,56 +30,22 @@
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed molestias magni ipsam doloribus quidem! Dolorem, dolor eligendi nesciunt explicabo, quam repellendus distinctio voluptatum quo deleniti quas porro corrupti perspiciatis obcaecati!",
+    "title": "Business Marketing Portfolio",
+    "description": "Led a web-based portfolio project during an internship at Invays Technologies, managing requirements, UI design, and deployment while collaborating with team members.",
     "stack": [
-      {
-        "logo": "logos:tailwindcss-icon",
-        "name":"Tailwind"
-      },
       {
         "logo": "logos:react",
-        "name":"React"
+        "name": "React"
       },
       {
-        "logo": "vscode-icons:file-type-next",
-        "name":"NextJs"
+        "logo": "simple-icons:express",
+        "name": "Express.js"
       },
       {
-        "logo": "logos:svelte-icon",
-        "name":"Svelte"
-      },
-      {
-        "logo": "logos:nodejs-icon",
-        "name":"NodeJs"
+        "logo": "logos:tailwindcss-icon",
+        "name": "Tailwind CSS"
       }
     ],
-    "imageLink": "/static/data/Images/project2.jpg",
-    "projectLink": "",
-    "github": ""
-  },
-  {
-    "id": 3,
-    "title": "Project 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed molestias magni ipsam doloribus quidem! Dolorem, dolor eligendi nesciunt explicabo, quam repellendus distinctio voluptatum quo deleniti quas porro corrupti perspiciatis obcaecati!",
-    "stack": [
-      {
-        "logo": "logos:tailwindcss-icon"
-      },
-      {
-        "logo": "logos:react"
-      },
-      {
-        "logo": "vscode-icons:file-type-next"
-      },
-      {
-        "logo": "logos:svelte-icon"
-      },
-      {
-        "logo": "logos:nodejs-icon"
-      }
-    ],
-    "imageLink": "/static/data/Images/project3.jpg",
     "projectLink": "",
     "github": ""
   }
